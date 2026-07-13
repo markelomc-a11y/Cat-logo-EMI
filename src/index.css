@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .dyslexia-font {
+    font-family: system-ui, -apple-system, sans-serif !important;
+    letter-spacing: 0.12em !important;
+    word-spacing: 0.25em !important;
+    line-height: 1.8 !important;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom spin for lucide icons */
+.animate-spin-slow {
+  animation: spin 8s linear infinite;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Catálogo EMI",
+  "description": "Um catálogo de filmes interativo com busca por ano, filtros por categoria, detalhes expandidos, e painel completo de recursos de acessibilidade (leitor de tela, controle de fontes, contraste e pesquisa por voz).",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
