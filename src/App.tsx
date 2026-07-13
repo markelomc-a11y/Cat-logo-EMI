@@ -104,7 +104,7 @@ export default function App() {
       try {
         setLoading(true);
         // Load local JSON file asynchronously
-        const response = await fetch('/movies-250.json');
+        const response = await fetch(`${import.meta.env.BASE_URL}movies-250.json`);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
