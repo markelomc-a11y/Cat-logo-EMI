@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Cat-logo-EMI/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
